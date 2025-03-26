@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: rgb(7, 47, 82);
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 44rem;
+}
+
+#yellow, #orange, #red, #blue{
+    border: 2px solid #fff;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 15px;
+    cursor: pointer;
+}
